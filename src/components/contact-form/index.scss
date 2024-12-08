@@ -1,0 +1,75 @@
+@import "@/scss/_global-requirements";
+
+.ContactForm {
+    padding-top: 119px;
+    padding-bottom: 70px;
+    .ContactForm-wrapper {
+        max-width: 1020px;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            .item {
+                display: flex;
+                gap: 30px;
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .title {
+                        font-family: $font-popin;
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                    .desc {
+                        font-family: $font-popin;
+                        font-size: 16px;
+                        font-weight: 400;
+                        max-width: 200px;
+                    }
+                }
+            }
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            .input {
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+                p {
+                    font-family: $font-popin;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                input,
+                textarea {
+                    padding: 25px 30px;
+
+                    border: 1px solid #9f9f9f;
+                    border-radius: 10px;
+
+                    font-family: $font-popin;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-variant-caps: #9f9f9f;
+                }
+            }
+            button {
+                border: 1px solid black;
+                border-radius: 10px;
+                align-self: flex-start;
+
+                padding: 12px 80px;
+
+                background-color: transparent;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import "@/scss/_global-requirements";
+
+.Intro {
+    &-wrapper {
+        padding: 90px 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        max-width: 640px;
+        margin: 0 auto;
+
+        text-align: center;
+
+        gap: 7px;
+        .title {
+            font-family: $font-popin;
+            font-size: 36px;
+            font-weight: 600;
+        }
+        .desc {
+            font-family: $font-popin;
+            font-size: 16px;
+            font-weight: 400;
+            color: #9f9f9f;
+        }
+    }
+}

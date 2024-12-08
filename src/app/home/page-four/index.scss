@@ -1,0 +1,48 @@
+@import "@/scss/_global-requirements";
+
+.fourth-page {
+  &-wrapper {
+    display: flex;
+    background-color: $white-color;
+    width: 100%;
+    height: 799px;
+    align-items: center;
+    position: relative;
+    .image {
+      width: 70%;
+      height: 100%;
+      position: absolute;
+      left: 0px;
+      z-index: 2;
+    }
+    .page-background {
+      width: 100%;
+      height: 80%;
+      padding: 6vh 10vw;
+      background-color: $secondary-color;
+      align-items: center;
+
+      .info {
+        position: absolute;
+        height: 205px;
+        width: 25%;
+        right: 20px;
+        bottom: 38%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        h3 {
+          font-size: 24px;
+        }
+        h1 {
+          font-size: 48px;
+          font-weight: 700;
+        }
+        .button {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "@/scss/_global-requirements";
+.underline-button {
+  height: 49px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  h4 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .underline {
+    margin-top: 15px;
+    height: 3px;
+    background-color: $black-color;
+  }
+}

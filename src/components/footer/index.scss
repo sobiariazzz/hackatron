@@ -1,0 +1,42 @@
+@import "../../scss/_global-requirements";
+
+.footer {
+  &-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 100px;
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      padding: 20px 0px;
+      .location {
+        padding-top: 8%;
+        div {
+          color: $light-text-color;
+        }
+      }
+      .links,
+      .email-info {
+        li {
+          padding: 20px 0px;
+        }
+        .email {
+          display: flex;
+          align-items: flex-start;
+          .subscribe {
+            margin-left: 10px;
+          }
+        }
+      }
+      .email-info {
+        margin-right: 100px;
+      }
+    }
+    .credits {
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../scss/_global-requirements";
+
+.icon-data {
+  display: flex;
+  //   align-items: center;
+  h4 {
+    color: $black-color;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 10px;
+  }
+}
