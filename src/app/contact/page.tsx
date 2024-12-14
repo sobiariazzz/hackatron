@@ -1,18 +1,19 @@
-import Banner from "@/components/Banner";
+
+import FormBanner from "@/components/ContactBanner";
+import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import FooterSection from "@/components/FooterSection";
 import Header from "@/components/Header";
-import Product from "@/components/product";
 
 // components/Section.js
-export default function Section() {
+export default function Page() {
     return (
      <>
     <Header/>
-     <Banner/>
-     <Product/>
-     <FooterSection/>
-     <Footer/>
+    <FormBanner/>
+    <ContactForm/>
+    <FooterSection/>
+     <Footer />
      </>
     );
   }
